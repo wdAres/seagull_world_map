@@ -23,7 +23,7 @@ body{
 }
 
 .logo_container img {
-  width: 170px;
+  width: 200px;
   display: block;
   margin: 10px auto;
   border-radius: 8px;
@@ -36,8 +36,9 @@ body{
 }
 
 #puneet_world_map svg {
-    width: 80%;
+    width: 63%;
     margin-top: 30px;
+    margin: 30px 0 10px;
 }
 #puneet_world_map svg path {
   fill: white;
@@ -61,7 +62,7 @@ body{
     align-items: center;
   }
   #puneet_world_map svg {
-    height: 500px;
-    width: 100%;
-  }
+    height: 363px;
+    width: 90%;
+}
 }
