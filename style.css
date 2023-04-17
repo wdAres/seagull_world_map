@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: #071e43;
+}
+
+
+body{
+  padding-top: 20px;
+}
+
+#puneet_world_map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+  flex-direction: column;
+}
+
+.logo_container img {
+  width: 170px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+.puneet_world_map_h3{
+  color:white;
+  text-align: center;
+  font-weight: 500;
+}
+
+#puneet_world_map svg {
+    width: 80%;
+    margin-top: 30px;
+}
+#puneet_world_map svg path {
+  fill: white;
+  transition: fill 0.3s;
+}
+
+#puneet_world_map a path {
+  fill: #6fa9cb !important;
+}
+
+.bottom_h5{
+  color:white;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px 0 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  #puneet_world_map {
+    height: max-content;
+    align-items: center;
+  }
+  #puneet_world_map svg {
+    height: 500px;
+    width: 100%;
+  }
+}
