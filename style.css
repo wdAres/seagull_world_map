@@ -13,7 +13,7 @@
 
 
 body{
-  padding-top: 20px;
+  padding: 10px 0px;
 }
 
 #puneet_world_map {
@@ -26,9 +26,9 @@ body{
 }
 
 .logo_container img {
-  width: 200px;
+  width: 300px;
   display: block;
-  margin: 10px auto;
+  margin: 5px auto;
   border-radius: 8px;
 }
 
@@ -36,12 +36,14 @@ body{
   color:white;
   text-align: center;
   font-weight: 500;
+  font-size: 13px;
+padding-top: 6px;
 }
 
 #puneet_world_map svg {
-    width: 63%;
-    margin-top: 30px;
-    margin: 30px 0 10px;
+    /* width: 63%; */
+    width: 898px;
+    margin: 24px 0 10px;
 }
 #puneet_world_map svg path {
   fill: white;
@@ -56,7 +58,6 @@ body{
   color:white;
   text-align: center;
   font-weight: 500;
-  padding: 10px 0 20px;
 }
 
 @media screen and (max-width: 1200px) {
